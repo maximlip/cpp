@@ -10,6 +10,13 @@ public class Test3 {
 	static void method() {
 		System.out.println(Thread.currentThread().getName());
 	}
+	
+
+	@Override
+	public String toString() {
+		return "Test3 []";
+	}
+
 
 	public static void main(String[] args) throws InterruptedException {
 
